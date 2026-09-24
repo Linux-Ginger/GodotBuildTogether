@@ -41,7 +41,7 @@
     <rect x="20" y="30" width="224" height="104" rx="14" fill="#1D1D1D" stroke="#131313"/>
     <circle cx="48" cy="62" r="16" fill="#3E8F36"/>
     <text x="48" y="68" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">S</text>
-    <text x="74" y="59" font-size="14" font-weight="700" fill="#F7F7F7">Sam wants to join</text>
+    <text x="74" y="59" font-size="14" font-weight="700" fill="#F7F7F7">Sem wants to join</text>
     <text x="74" y="77" font-size="12" fill="#9C9C9C">Let them in?</text>
     <rect x="34" y="96" width="94" height="26" rx="6" fill="#0E8420"/>
     <text x="81" y="113.5" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Let in</text>
