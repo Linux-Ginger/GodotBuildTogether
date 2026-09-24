@@ -43,6 +43,6 @@
     <text x="100" y="52" class="n">Claude</text>
     <rect x="190" y="35" width="128" height="24" rx="12" fill="#2C2C2C" stroke="#131313"/>
     <text x="254" y="51.5" font-size="12.5" font-weight="600" fill="#9C9C9C" text-anchor="middle">AI by Anthropic</text>
-    <text class="b"><tspan x="100" y="78">Most of the code was written</tspan><tspan x="100" y="99">with Claude's help, one</tspan><tspan x="100" y="120">conversation at a time.</tspan></text>
+    <text class="b"><tspan x="100" y="78">Most of the code was written</tspan><tspan x="100" y="99">with Claude's help.</tspan><tspan x="100" y="120"></tspan></text>
   </g>
 </svg>
