@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="900" height="460" role="img" aria-label="Features: Live scenes, Code together, No clashes, See each other, You decide who joins, Fast and encrypted">
+  <defs>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.32"/>
+    </filter>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#333333"/><stop offset="1" stop-color="#2A2A2A"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: Ubuntu, "Segoe UI", system-ui, -apple-system, Cantarell, "Noto Sans", "Helvetica Neue", Arial, sans-serif; }
+    .t { font-size: 18px; font-weight: 700; fill: #F7F7F7; }
+    .b { font-size: 14.5px; fill: #9C9C9C; }
+    .i { fill: none; stroke: #E95420; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <g transform="translate(20 14)">
+    <rect width="272" height="196" rx="16" fill="url(#card)" stroke="#131313" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect x="20" y="20" width="48" height="48" rx="12" fill="#3B2319"/>
+    <g class="i" transform="translate(20 20)"><circle cx="24" cy="13" r="5"/><circle cx="13" cy="35" r="5"/><circle cx="35" cy="35" r="5"/><path d="M21 17 L15 30 M27 17 L33 30"/></g>
+    <text x="22" y="98" class="t">Live scenes</text>
+    <text class="b"><tspan x="22" y="126">Add, move or delete a node</tspan><tspan x="22" y="147">and your friend sees it</tspan><tspan x="22" y="168">straight away.</tspan></text>
+  </g>
+  <g transform="translate(314 14)">
+    <rect width="272" height="196" rx="16" fill="url(#card)" stroke="#131313" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect x="20" y="20" width="48" height="48" rx="12" fill="#3B2319"/>
+    <g class="i" transform="translate(20 20)"><path d="M17 15 L9 24 L17 33 M31 15 L39 24 L31 33 M27 11 L21 37"/></g>
+    <text x="22" y="98" class="t">Code together</text>
+    <text class="b"><tspan x="22" y="126">Type in the same script at</tspan><tspan x="22" y="147">the same time, without</tspan><tspan x="22" y="168">overwriting each other.</tspan></text>
+  </g>
+  <g transform="translate(608 14)">
+    <rect width="272" height="196" rx="16" fill="url(#card)" stroke="#131313" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect x="20" y="20" width="48" height="48" rx="12" fill="#3B2319"/>
+    <g class="i" transform="translate(20 20)"><rect x="13" y="22" width="22" height="16" rx="3"/><path d="M18 22 V17 a6 6 0 0 1 12 0 V22"/><path d="M24 28 V32"/></g>
+    <text x="22" y="98" class="t">No clashes</text>
+    <text class="b"><tspan x="22" y="126">What someone is working on</tspan><tspan x="22" y="147">gets their colour and a</tspan><tspan x="22" y="168">lock until they're done.</tspan></text>
+  </g>
+  <g transform="translate(20 232)">
+    <rect width="272" height="196" rx="16" fill="url(#card)" stroke="#131313" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect x="20" y="20" width="48" height="48" rx="12" fill="#3B2319"/>
+    <g class="i" transform="translate(20 20)"><circle cx="17" cy="17" r="5"/><path d="M8 36 a9 9 0 0 1 18 0"/><circle cx="32" cy="15" r="4.5"/><path d="M26 25 a8 8 0 0 1 14 8"/></g>
+    <text x="22" y="98" class="t">See each other</text>
+    <text class="b"><tspan x="22" y="126">Friends show up as figures</tspan><tspan x="22" y="147">in your 3D view, moving</tspan><tspan x="22" y="168">smoothly as they look around.</tspan></text>
+  </g>
+  <g transform="translate(314 232)">
+    <rect width="272" height="196" rx="16" fill="url(#card)" stroke="#131313" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect x="20" y="20" width="48" height="48" rx="12" fill="#3B2319"/>
+    <g class="i" transform="translate(20 20)"><path d="M15 33 H33 L30.5 29.5 V22 a6.5 6.5 0 0 0 -13 0 V29.5 Z"/><path d="M21.5 37 a2.5 2.5 0 0 0 5 0"/></g>
+    <text x="22" y="98" class="t">You decide who joins</text>
+    <text class="b"><tspan x="22" y="126">Someone knocks, you get a</tspan><tspan x="22" y="147">pop-up, you let them in —</tspan><tspan x="22" y="168">or you don't.</tspan></text>
+  </g>
+  <g transform="translate(608 232)">
+    <rect width="272" height="196" rx="16" fill="url(#card)" stroke="#131313" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect x="20" y="20" width="48" height="48" rx="12" fill="#3B2319"/>
+    <g class="i" transform="translate(20 20)"><path d="M27 8 L15 27 H23 L20 40 L33 21 H25 Z" fill="#E95420" stroke-linejoin="round"/></g>
+    <text x="22" y="98" class="t">Fast and encrypted</text>
+    <text class="b"><tspan x="22" y="126">Your friend gets the whole</tspan><tspan x="22" y="147">project by itself. After that,</tspan><tspan x="22" y="168">only what changes.</tspan></text>
+  </g>
+</svg>
