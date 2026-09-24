@@ -24,11 +24,11 @@
     <text x="36" y="70" font-size="12" font-weight="700" fill="#9C9C9C" letter-spacing="1">PASSWORD</text>
     <rect x="36" y="78" width="192" height="26" rx="6" fill="#272727" stroke="#E95420" stroke-width="1.5"/>
     <text x="46" y="96" font-size="15" fill="#F7F7F7" letter-spacing="2">•••••••••••</text>
-    <rect x="36" y="112" width="120" height="22" rx="6" fill="#0E8420"/>
-    <text x="96" y="127.5" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Open it up</text>
+    <rect x="36" y="112" width="128" height="22" rx="6" fill="#0E8420"/>
+    <text x="100" y="127.5" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Start hosting</text>
     <circle cx="36" cy="182" r="16" fill="#E95420"/><text x="36" y="188" class="n" text-anchor="middle">1</text>
     <text x="62" y="189" class="t">Host your game</text>
-    <text class="b"><tspan x="20" y="224">Press Open it up. The app</tspan><tspan x="20" y="246">makes a strong password</tspan><tspan x="20" y="268">for you.</tspan></text>
+    <text class="b"><tspan x="20" y="224">Press Start hosting. The</tspan><tspan x="20" y="246">app makes a strong</tspan><tspan x="20" y="268">password for you.</tspan></text>
   </g>
 
   <!-- arrow -->
@@ -41,7 +41,7 @@
     <rect x="20" y="30" width="224" height="104" rx="14" fill="#1D1D1D" stroke="#131313"/>
     <circle cx="48" cy="62" r="16" fill="#3E8F36"/>
     <text x="48" y="68" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">S</text>
-    <text x="74" y="59" font-size="14" font-weight="700" fill="#F7F7F7">Sem wants to join</text>
+    <text x="74" y="59" font-size="14" font-weight="700" fill="#F7F7F7">Sam wants to join</text>
     <text x="74" y="77" font-size="12" fill="#9C9C9C">Let them in?</text>
     <rect x="34" y="96" width="94" height="26" rx="6" fill="#0E8420"/>
     <text x="81" y="113.5" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Let in</text>
