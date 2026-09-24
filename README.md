@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="svg/banner.svg" width="100%" alt="GodotBuildTogether — coming soon. The first release for Linux and Windows is on its way.">
+  <img src="svg/banner.svg?v=2" width="100%" alt="GodotBuildTogether — coming soon. The first release for Linux and Windows is on its way.">
 </p>
 
 <p align="center">
@@ -32,7 +32,7 @@ no zips. **Download it, start it, and begin.**
 ## How it works
 
 <p align="center">
-  <img src="svg/steps.svg" width="100%" alt="1. Host your game: press Start hosting and the app makes a strong password. 2. Your friend joins: they type your address and password, you let them in. 3. Build together: the app copies your game, opens Godot and you see each other work live.">
+  <img src="svg/steps.svg?v=2" width="100%" alt="1. Host your game: press Start hosting and the app makes a strong password. 2. Your friend joins: they type your address and password, you let them in. 3. Build together: the app copies your game, opens Godot and you see each other work live.">
 </p>
 
 There are two parts, and you get both in one download:
@@ -48,13 +48,13 @@ with the project, and keeps it up to date.
 ## What you can do
 
 <p align="center">
-  <img src="svg/features.svg" width="100%" alt="Live scenes, code together, no clashes, see each other, you decide who joins, encrypted, fast copying, error codes that help, updates itself.">
+  <img src="svg/features.svg?v=2" width="100%" alt="Live scenes, code together, no clashes, see each other, you decide who joins, encrypted, fast copying, error codes that help, updates itself.">
 </p>
 
 ### Supported languages
 
 <p align="center">
-  <img src="svg/languages.svg" width="100%" alt="Supported languages: English, Nederlands, Deutsch, Français. Picked automatically from your computer.">
+  <img src="svg/languages.svg?v=2" width="100%" alt="Supported languages: English, Nederlands, Deutsch, Français. Picked automatically from your computer.">
 </p>
 
 ## What you need
@@ -90,7 +90,7 @@ with the project, and keeps it up to date.
 ## Credits
 
 <p align="center">
-  <a href="https://github.com/Linux-Ginger"><img src="svg/credits.svg" width="100%" alt="Made by Linux Ginger together with Claude, an AI by Anthropic. Linux Ginger did the ideas, the choices and the testing, and made the app and all that was added to the add-on. Most of the code was written with Claude's help."></a>
+  <a href="https://github.com/Linux-Ginger"><img src="svg/credits.svg?v=2" width="100%" alt="Made by Linux Ginger together with Claude, an AI by Anthropic. Linux Ginger did the ideas, the choices and the testing, and made the app and all that was added to the add-on. Most of the code was written with Claude's help."></a>
 </p>
 
 The Godot add-on started as a fork of
