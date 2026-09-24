@@ -32,7 +32,7 @@ no zips. **Download it, start it, and begin.**
 ## How it works
 
 <p align="center">
-  <img src="svg/steps.svg" width="100%" alt="1. Host your game: press Open it up and the app makes a strong password. 2. Your friend joins: they type your address and password, you let them in. 3. Build together: the app copies your game, opens Godot and you see each other work live.">
+  <img src="svg/steps.svg" width="100%" alt="1. Host your game: press Start hosting and the app makes a strong password. 2. Your friend joins: they type your address and password, you let them in. 3. Build together: the app copies your game, opens Godot and you see each other work live.">
 </p>
 
 There are two parts, and you get both in one download:
@@ -48,23 +48,14 @@ with the project, and keeps it up to date.
 ## What you can do
 
 <p align="center">
-  <img src="svg/features.svg" width="100%" alt="Live scenes, code together, no clashes, see each other, you decide who joins, fast and encrypted.">
+  <img src="svg/features.svg" width="100%" alt="Live scenes, code together, no clashes, see each other, you decide who joins, encrypted, fast copying, error codes that help, updates itself.">
 </p>
 
-- **Live scenes** — adding, moving, deleting and changing nodes shows up for
-  everybody right away.
-- **Code together** — two people can type in the same script at once without
-  wiping out each other's work.
-- **No clashes** — a node someone is working on gets their colour and a lock.
-- **See each other** — the others show up as figures in your 3D view.
-- **You decide who joins** — every session gets a fresh, strong password, and
-  nobody gets in until you say so. You get a notification when someone knocks.
-- **One copy, then only changes** — your friend receives the whole project
-  the first time. After that only what changed is sent.
-- **Error codes that help** — if something goes wrong you get a four-digit code
-  and a plain explanation, instead of just "it doesn't work".
-- **Speaks your language** — English, Dutch, German and French, picked
-  automatically from your computer.
+### Supported languages
+
+<p align="center">
+  <img src="svg/languages.svg" width="100%" alt="Supported languages: English, Nederlands, Deutsch, Français. Picked automatically from your computer.">
+</p>
 
 ## What you need
 
@@ -73,24 +64,6 @@ with the project, and keeps it up to date.
 - **To play over the internet:** the person who hosts uses
   [playit.gg](https://playit.gg) (free) with a **UDP** tunnel. No port
   forwarding needed. On the same network you don't need it at all.
-
-## Status
-
-GodotBuildTogether is **not released yet**. It's being built and tested right now
-by a small group of friends making a horror game with it.
-
-- [x] Joining with a password and letting people in
-- [x] Copying the project to your friend, encrypted
-- [x] Live scene and script changes
-- [x] Locks, colours and figures in the 3D view
-- [x] Notifications on Linux (Windows is still being tested)
-- [ ] First public release
-- [ ] **History** — rewind the project to how it was earlier
-- [ ] Block list for people you never want to let in
-- [ ] When you rejoin: see what changed and choose what to keep
-
-Want to know when it's out? Press **Watch → Custom → Releases** at the top of
-this page.
 
 <details>
 <summary><b>For techies</b></summary>
@@ -123,7 +96,9 @@ shared script editing and the node locks. A lot has been rewritten and added
 since, but parts of his code are still in there — thank you!
 
 The app and everything added to the add-on after the fork are made by
-**[Linux Ginger](https://github.com/Linux-Ginger)**.
+**[Linux Ginger](https://github.com/Linux-Ginger)** together with
+**Claude**, an AI by Anthropic. Most of the code was written with Claude's
+help; the ideas, the choices and the testing are Linux Ginger's.
 
 ## Licence
 
@@ -146,4 +121,4 @@ Foundation; the logo is not used in this project.
 Roblox and Roblox Studio are trademarks of Roblox Corporation. GodotBuildTogether
 is not affiliated with Roblox; the comparison is only there to explain the idea.
 
-<p align="center"><sub>Made with ❤ by Linux Ginger</sub></p>
+<p align="center"><sub>Made with ❤ by Linux Ginger &amp; Claude</sub></p>
