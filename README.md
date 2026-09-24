@@ -98,7 +98,7 @@ since, but parts of his code are still in there — thank you!
 The app and everything added to the add-on after the fork are made by
 **[Linux Ginger](https://github.com/Linux-Ginger)** together with
 **Claude**, an AI by Anthropic. Most of the code was written with Claude's
-help; the ideas, the choices and the testing are Linux Ginger's.
+help.
 
 ## Licence
 
