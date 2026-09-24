@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340" role="img" aria-label="GodotBuildTogether — coming soon">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#E95420" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#E95420" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#333333"/>
+      <stop offset="1" stop-color="#2A2A2A"/>
+    </linearGradient>
+    <clipPath id="cardclip"><rect x="20" y="14" width="860" height="300" rx="20"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: Ubuntu, "Segoe UI", system-ui, -apple-system, Cantarell, "Noto Sans", "Helvetica Neue", Arial, sans-serif; }
+  </style>
+
+  <!-- card -->
+  <rect x="20" y="14" width="860" height="300" rx="20" fill="url(#card)" stroke="#131313" stroke-width="1.5" filter="url(#shadow)"/>
+  <g clip-path="url(#cardclip)">
+    <circle cx="170" cy="164" r="190" fill="url(#glow)"/>
+    <rect x="20" y="14" width="860" height="5" fill="#E95420"/>
+  </g>
+
+  <!-- clock -->
+  <g transform="translate(170 164)">
+    <circle r="96" fill="#1D1D1D" stroke="#E95420" stroke-width="9"/>
+    <circle r="84" fill="none" stroke="#131313" stroke-width="2"/>
+    <g stroke="#9C9C9C" stroke-width="4" stroke-linecap="round">
+      <line y1="-74" y2="-62" transform="rotate(0)" stroke="#F7F7F7"/>
+      <line y1="-74" y2="-66" transform="rotate(30)"/>
+      <line y1="-74" y2="-66" transform="rotate(60)"/>
+      <line y1="-74" y2="-62" transform="rotate(90)" stroke="#F7F7F7"/>
+      <line y1="-74" y2="-66" transform="rotate(120)"/>
+      <line y1="-74" y2="-66" transform="rotate(150)"/>
+      <line y1="-74" y2="-62" transform="rotate(180)" stroke="#F7F7F7"/>
+      <line y1="-74" y2="-66" transform="rotate(210)"/>
+      <line y1="-74" y2="-66" transform="rotate(240)"/>
+      <line y1="-74" y2="-62" transform="rotate(270)" stroke="#F7F7F7"/>
+      <line y1="-74" y2="-66" transform="rotate(300)"/>
+      <line y1="-74" y2="-66" transform="rotate(330)"/>
+    </g>
+    <!-- hour hand -->
+    <line y1="8" y2="-40" stroke="#F7F7F7" stroke-width="8" stroke-linecap="round" transform="rotate(300)">
+      <animateTransform attributeName="transform" type="rotate" from="300" to="660" dur="72s" repeatCount="indefinite"/>
+    </line>
+    <!-- minute hand -->
+    <line y1="10" y2="-60" stroke="#F7F7F7" stroke-width="5" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+    </line>
+    <!-- second hand -->
+    <line y1="14" y2="-66" stroke="#E95420" stroke-width="2.5" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" values="0;6;12;18;24;30;36;42;48;54;60;66;72;78;84;90;96;102;108;114;120;126;132;138;144;150;156;162;168;174;180;186;192;198;204;210;216;222;228;234;240;246;252;258;264;270;276;282;288;294;300;306;312;318;324;330;336;342;348;354;360" dur="60s" calcMode="discrete" repeatCount="indefinite"/>
+    </line>
+    <circle r="7" fill="#E95420"/>
+    <circle r="2.5" fill="#1D1D1D"/>
+  </g>
+
+  <!-- app icon + name -->
+  <g transform="translate(306 46) scale(0.36)">
+    <rect x="8" y="26" width="112" height="86" rx="20" fill="#A8390F"/>
+    <rect x="8" y="18" width="112" height="86" rx="20" fill="#E95420"/>
+    <rect x="56" y="70" width="10" height="16" fill="#8A5A33"/>
+    <rect x="61" y="70" width="5" height="16" fill="#6B4325"/>
+    <path d="M61 30 L61 74 L38 74 Z" fill="#5FBE52"/>
+    <path d="M61 30 L61 74 L84 74 Z" fill="#3E8F36"/>
+    <path d="M0 0 L0 30 L7.8 22.8 L13 34 L17.5 31.8 L12.3 20.8 L22.6 19.3 Z" fill="#FFFFFF" stroke="#8A2F0D" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke" transform="translate(58,46)"/>
+    <path d="M0 0 L0 30 L7.8 22.8 L13 34 L17.5 31.8 L12.3 20.8 L22.6 19.3 Z" fill="#24303F" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round" paint-order="stroke" transform="translate(110,98) rotate(180) scale(0.82)"/>
+  </g>
+  <text x="360" y="82" font-size="24" font-weight="700" fill="#F7F7F7">GodotBuildTogether</text>
+
+  <!-- headline -->
+  <text x="304" y="170" font-size="66" font-weight="700" fill="#F7F7F7" letter-spacing="-1">Coming <tspan fill="#E95420">soon</tspan></text>
+  <text x="306" y="210" font-size="19" fill="#9C9C9C">The first release for Linux and Windows is on its way.</text>
+
+  <!-- chips -->
+  <g font-size="15" font-weight="600">
+    <rect x="306" y="236" width="186" height="34" rx="17" fill="#1D1D1D" stroke="#131313"/>
+    <circle cx="328" cy="253" r="5" fill="#12A029">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="342" y="258" fill="#F7F7F7">In development</text>
+
+    <rect x="504" y="236" width="198" height="34" rx="17" fill="#1D1D1D" stroke="#131313"/>
+    <text x="523" y="258" fill="#F7F7F7">Free &amp; open source</text>
+
+    <rect x="714" y="236" width="118" height="34" rx="17" fill="#1D1D1D" stroke="#131313"/>
+    <text x="733" y="258" fill="#F7F7F7">Godot 4.7</text>
+  </g>
+</svg>
