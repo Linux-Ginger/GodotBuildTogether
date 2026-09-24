@@ -89,16 +89,16 @@ with the project, and keeps it up to date.
 
 ## Credits
 
+<p align="center">
+  <a href="https://github.com/Linux-Ginger"><img src="svg/credits.svg" width="100%" alt="Made by Linux Ginger together with Claude, an AI by Anthropic. Linux Ginger did the ideas, the choices and the testing, and made the app and all that was added to the add-on. Most of the code was written with Claude's help."></a>
+</p>
+
 The Godot add-on started as a fork of
 **[GodotWithU](https://github.com/Airyshtoteles/GodotWithU)** by
 **Airyshtoteles**. His work laid the foundation for the live scene sync, the
 shared script editing and the node locks. A lot has been rewritten and added
 since, but parts of his code are still in there — thank you!
 
-The app and everything added to the add-on after the fork are made by
-**[Linux Ginger](https://github.com/Linux-Ginger)** together with
-**Claude**, an AI by Anthropic. Most of the code was written with Claude's
-help.
 
 ## Licence
 
