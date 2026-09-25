@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="svg/banner.svg?v=2" width="100%" alt="GodotBuildTogether — coming soon. The first release for Linux and Windows is on its way.">
+  <img src="svg/banner.svg?v=3" width="100%" alt="GodotBuildTogether — coming soon. The first release for Linux and Windows is on its way.">
 </p>
 
 <p align="center">
@@ -90,7 +90,7 @@ with the project, and keeps it up to date.
 ## Credits
 
 <p align="center">
-  <a href="https://github.com/Linux-Ginger"><img src="svg/credits.svg?v=2" width="100%" alt="Made by Linux Ginger together with Claude, an AI by Anthropic. Linux Ginger did the ideas, the choices and the testing, and made the app and all that was added to the add-on. Most of the code was written with Claude's help."></a>
+  <a href="https://github.com/Linux-Ginger"><img src="svg/credits.svg?v=4" width="100%" alt="Made by Linux Ginger together with Claude, an AI by Anthropic. Linux Ginger did the ideas, the choices and the testing, and made the app and all that was added to the add-on. Most of the code was written with Claude's help."></a>
 </p>
 
 The Godot add-on started as a fork of
